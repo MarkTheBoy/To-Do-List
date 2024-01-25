@@ -1,0 +1,48 @@
+body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: linear-gradient(rgb(234, 30, 203), rgb(31, 69, 219));
+}
+
+#newtask input{
+    border-radius: 15px;
+    max-width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 8, 8);
+    overflow: hidden;
+    font-size: 2rem;
+    background-color: rgb(205, 222, 255);
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    margin-top: 20px;
+}
+
+.task {
+    background-color: #b7abe9;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task button {
+    color: rgb(19, 5, 5);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.task button i {
+    font-size: 1.2em;
+}
